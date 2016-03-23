@@ -1,3 +1,15 @@
+String.prototype.capitalize = function() {
+    return this.charAt(0).toUpperCase() + this.slice(1);
+}
+
+var oSection = {
+    "about":"user",
+    "work-experience":"building",
+    "skills":"code",
+    "education":"mortar-board",
+    "interests":"heart"
+}
+
 window.onload = function () {
   var toggleFloatingMenu = function() {
     $( '.js-floating-nav' ).toggleClass( 'is-visible' );
