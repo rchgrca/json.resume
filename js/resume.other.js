@@ -1,14 +1,10 @@
-String.prototype.capitalize = function() {
-    return this.charAt(0).toUpperCase() + this.slice(1);
-}
-
-var oSection = {
-    "about":"user",
-    "work-experience":"building",
-    "skills":"code",
-    "education":"mortar-board",
-    "interests":"heart"
-}
+var modelContentSection = [
+    {section: "about", font: "user"},
+    {section: "work-experience", font: "building"},
+    {section: "skills", font: "code"},
+    {section: "education", font: "mortar-board"},
+    {section: "interests", font: "heart"}
+];
 
 window.onload = function () {
   var toggleFloatingMenu = function() {

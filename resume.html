@@ -16,98 +16,20 @@
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/react/0.14.7/react.js"></script>
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/react/0.14.7/react-dom.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.23/browser.min.js"></script>
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/js/tooltip.js"></script>
         <script type="text/javascript" src="js/readable-range.js"></script>
         <script type="text/javascript" src="js/resume.json.js"></script>
         <script type="text/javascript" src="js/resume.other.js"></script>
+        <script type="text/babel" src="js/components/floating-nav.js"></script>
+        <script type="text/babel" src="js/components/profile_card_wrapper.js"></script>
     </head>
     <body itemscope itemtype="http://schema.org/Person">
         <div class="container-fluid">
             <div class="row main clearfix">
-                <a href="#" class="js-floating-nav-trigger floating-nav-trigger">
-                    <i class="fa fa-bars"></i><span class="close-icon">&times;</span>
-                </a>
-                <nav class="floating-nav js-floating-nav">
-                    <ul class="list-unstyled">
-                        <li>
-                            <a href="#about"><i class="fa fa-user"></i>About</a>
-                        </li>
-                        <li>
-                            <a href="#work-experience"><i class="fa fa-building"></i>Work Experience</a>
-                        </li>
-                        <li>
-                            <a href="#skills"><i class="fa fa-code"></i>Skills</a>
-                        </li>
-                        <li>
-                            <a href="#education"><i class="fa fa-mortar-board"></i>Education</a>
-                        </li>
-                        <li>
-                            <a href="#interests"><i class="fa fa-heart"></i>Interests</a>
-                        </li>
-                    </ul>
-                </nav>
-                <section class="col-md-3 card-wrapper profile-card-wrapper affix">
-                    <div class="card profile-card">
-                        <span class="profile-pic-container">
-                            <div class="profile-pic">
-                                <img class="media-object img-circle center-block"  data-src="holder.js/100x100"
-                                    alt="Richard L. Garcia" src="http://n.leesonbooks.com/rg/img/rich.beanie.copy.jpg" itemprop="image">
-                            </div>
-                            <div class="name-and-profession">
-                                <h3 class="text-center text-bolder name" itemprop="name"> Richard L. Garcia</h3>
-                                <h5 class="text-muted text-center" itemprop="jobTitle">Frontend Software Developer</h5>
-                            </div>
-                        </span>
-                        <hr>
-                        <div class="contact-details clearfix" id="contact">
-                            <div class="detail">
-                                <span class="icon">
-                                <i class="fa fa-lg fa-location-arrow"></i>
-                                </span>
-                                <span class="info">
-                                Fremont, California, US
-                                </span>
-                            </div>
-                            <div class="detail">
-                                <span class="icon">
-                                <i class="fa fa-lg fa-phone"></i>
-                                </span>
-                                <span class="info" itemprop="telephone">
-                                <a href="tel:(510) 918-3102">(510) 918-3102</a>
-                                </span>
-                            </div>
-                            <div class="detail">
-                                <span class="icon">
-                                <i class="fa fa-lg fa-envelope"></i>
-                                </span>
-                                <span class="info" id="email">
-                                <a href="mailto:rchgrcaATgmailDOTcom" onmouseover="this.href=this.href.replace(/AT/,'&#64;').replace(/DOT/,'&#46;')" onclick="this.href=this.href.replace(/AT/,'&#64;').replace(/DOT/,'&#46;')"><span>E-mail</span></a>
-                                </span>
-                            </div>
-                            <div class="detail">
-                                <span class="icon">
-                                <i class="fa fa-lg fa-link"></i>
-                                </span>
-                                <span class="info">
-                                <a href="http://rchgrca.io" target="_blank">http://rchgrca.io</a>
-                                </span>
-                            </div>
-                            <div class="detail">
-                                <span class="icon" title="Languages I speak">
-                                <i class="fa fa-lg fa-language"></i>
-                                </span>
-                                <span class="info">
-                                Spanish
-                                </span>
-                            </div>
-                        </div>
-                        <hr>
-                        <div class="social-links text-center">
-                            <a class="fa fa-linkedin fa-2x social-link link-linkedin"
-                                href="http://www.linkedin.com/in/rchgrca" target="_blank"></a>
-                        </div>
-                    </div>
-                </section>
+                <a href="#" class="js-floating-nav-trigger floating-nav-trigger"><i class="fa fa-bars"></i><span class="close-icon">&times;</span></a>
+                <nav class="floating-nav js-floating-nav"></nav>
+                <section class="col-md-3 card-wrapper profile-card-wrapper affix"></section>
                 <section class="col-md-9 card-wrapper content-card-wrapper pull-right">
                     <div class="card background-card">
                         <h4 class="text-uppercase text-bolder">Background</h4>
