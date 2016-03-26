@@ -22,11 +22,11 @@ var ComponentProfilePic = React.createClass({
 var ComponentProfileContact = React.createClass({
     render() {
         var modelProfileContact = [
-            {icon: "location-arrow", detail: this.props.model.basics.location.city + ", " + this.props.model.basics.location.region + ", " + this.props.model.basics.location.countryCode},
-            {icon: "phone", detail: this.props.model.basics.phone},
-            {icon: "envelope", detail: this.props.model.basics.email},
-            {icon: "link", detail: this.props.model.basics.website},
-            {icon: "language", detail: this.props.model.languages[0].language}
+            {icon: "location-arrow", detail: this.props.model.basics.location.city + ", " + this.props.model.basics.location.region + ", " + this.props.model.basics.location.countryCode, href:false},
+            {icon: "phone", detail: this.props.model.basics.phone, href:"tel:" + this.props.model.basics.phone},
+            {icon: "envelope", detail: "E-mail", href:"mailto:" + this.props.model.basics.email},
+            {icon: "link", detail: this.props.model.basics.website, href:this.props.model.basics.website},
+            {icon: "language", detail: this.props.model.languages[0].language, href:false}
         ];
         return (
             <div className="contact-details clearfix" id="contact">
@@ -35,7 +35,16 @@ var ComponentProfileContact = React.createClass({
                     return (
                         <div className="detail" key={i}>
                             <span className="icon"><i className={fonticon}></i></span>
-                            <span className="info"><a href="javascript:void(0);">{o.detail}</a></span>
+                            <span className="info">
+                            {(() => {
+                                if (o.href){
+                                    return <a href={o.href} target="_blank">{o.detail}</a>
+                                } else {
+                                    return o.detail
+                                }
+                            })()}
+
+                            </span>
                         </div>
                     )
                 })}
@@ -51,7 +60,7 @@ var ComponentProfileSocialLinks = React.createClass({
                 <hr/>
                 <div className="social-links text-center">
                     <a className="fa fa-linkedin fa-2x social-link link-linkedin"
-                        href="http://www.linkedin.com/in/rchgrca" target="_blank"></a>
+                        href={this.props.model.basics.profiles[0].url} target="_blank"></a>
                 </div>
             </div>
         )
