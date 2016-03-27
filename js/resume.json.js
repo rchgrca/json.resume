@@ -32,7 +32,7 @@ var oResume = {
       "position": "Sr. Frontend Software Engineer",
       "website": "http://euclidanalytics.com",
       "startDate": "2015-08-15",
-      "endDate": "Present",
+      "endDate": moment(),
       "duration": moment.preciseDiff(moment("2015-08-15"), moment()),
       "summary": "Data Visualization",
       "highlights": [
