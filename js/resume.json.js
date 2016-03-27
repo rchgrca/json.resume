@@ -8,7 +8,7 @@ var oResume = {
     "website": "http://rchgrca.io",
     "summary": "Richard is a passionate engineer who loves solving problems at the macro and micro level. He is looking for a Front End development position that allows him to combine his love for optimizing the end user experience through visual layout and page performance. Richard has working experience with the following:",
     "highlights": [
-      "React.js, Backbone.js, Ruby on Rails, SASS, Node.js, TDD (Jasmine/RSPEC), MySQL",
+      "React.js, Backbone.js, Ruby on Rails, SASS, Jasmine/RSPEC, MySQL",
       "Real-time web and mobile-web applications"
     ],
     "location": {
