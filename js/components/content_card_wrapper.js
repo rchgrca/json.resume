@@ -45,6 +45,32 @@ var ComponentProfileContentWorkExperience = React.createClass({
     }
 });
 
+var ComponentProfileContentSkills = React.createClass({
+    render() {
+        return (
+            <div className="content">
+                <ul className="list-unstyled">
+                    {this.props.model.skills.map(function(o,i){
+                        return (
+                            <li className="card card-nested card-skills" key={i}>
+                                <div className="skill-level" rel="tooltip" title="Master" data-placement="left">
+                                    <div className="skill-progress master"></div>
+                                </div>
+                                <div className="skill-info">
+                                    <strong>{o.name}</strong>
+                                    <div className="space-top labels">
+                                        <span className="label label-keyword">{o.keywords[0]}</span>
+                                    </div>
+                                </div>
+                            </li>
+                        )
+                    })}
+                </ul>
+            </div>
+        )
+    }
+});
+
 var ComponentProfileContentEducation = React.createClass({
     render() {
         var education = this.props.model.education[0],
@@ -118,7 +144,7 @@ var ComponentProfileContentDetails = React.createClass({
                                         )
                                     } else if (block.section === "skills") {
                                         return (
-                                            <div></div>
+                                            <ComponentProfileContentSkills model={this.props.model} />
                                         )
                                     } else if (block.section === "education") {
                                         return (
