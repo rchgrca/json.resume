@@ -45,6 +45,34 @@ var ComponentProfileContentWorkExperience = React.createClass({
     }
 });
 
+var ComponentProfileContentEducation = React.createClass({
+    render() {
+        var education = this.props.model.education[0],
+        startDate = moment(education.startDate).format("MMM YYYY"),
+        endDate = moment(education.endDate).format("MMM YYYY"),
+        attended = startDate + " - " + endDate;
+
+        return (
+            <div className="content">
+                <ul className="list-unstyled">
+                    <li className="card card-nested">
+                        <div className="content">
+                            <p className="clear-margin relative">
+                                <strong>{education.area}, {education.studyType}</strong>, {education.institution}
+                            </p>
+                            <p className="text-muted">
+                                <small>{attended}</small>
+                            </p>
+                            <i></i>
+                            <div className="space-top labels"></div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        )
+    }
+});
+
 var ComponentProfileContentDetails = React.createClass({
     render() {
         console.log(this.props.model)
@@ -75,7 +103,7 @@ var ComponentProfileContentDetails = React.createClass({
                                         )
                                     } else if (block.section === "education") {
                                         return (
-                                            <div></div>
+                                            <ComponentProfileContentEducation model={this.props.model} />
                                         )
                                     } else if (block.section === "interests") {
                                         return (

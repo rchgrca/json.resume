@@ -183,7 +183,7 @@ var oResume = {
   "education": [
     {
       "institution": "Texas A&M University",
-      "area": "Electronics Engineering Technology, Data/Telecommunications Emphasis",
+      "area": "Electronics Engineering Technology, Data Communications Emphasis",
       "studyType": "Bachelor",
       "startDate": "1984-08-15",
       "endDate": "1990-05-15",
