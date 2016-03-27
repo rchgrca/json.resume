@@ -63,6 +63,13 @@ body {
   min-height: 300px;
   padding: 10px;
 }
+#interests .card:first-child {
+    padding: 10px 10px 0;
+}
+#interests .card:last-child {
+    border: none;
+    padding: 0 10px;
+}
 .card-nested {
   min-height: 0;
   margin-bottom: 10px;
@@ -75,6 +82,9 @@ body {
 }
 .card-nested:after {
   clear: both;
+}
+#interests .card-nested {
+    margin-bottom: 0;
 }
 @media (max-width: 480px) {
   .card-nested {

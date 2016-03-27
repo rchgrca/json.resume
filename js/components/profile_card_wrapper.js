@@ -23,7 +23,7 @@ var ComponentProfileContact = React.createClass({
     render() {
         var modelProfileContact = [
             {icon: "location-arrow", detail: this.props.model.basics.location.city + ", " + this.props.model.basics.location.region + ", " + this.props.model.basics.location.countryCode, href:false},
-            {icon: "phone", detail: this.props.model.basics.phone, href:"tel:" + this.props.model.basics.phone},
+            {icon: "phone", detail: "Phone", href:"tel:" + this.props.model.basics.phone},
             {icon: "envelope", detail: "E-mail", href:"mailto:" + this.props.model.basics.email},
             {icon: "link", detail: this.props.model.basics.website, href:this.props.model.basics.website},
             {icon: "language", detail: this.props.model.languages[0].language, href:false}

@@ -73,6 +73,25 @@ var ComponentProfileContentEducation = React.createClass({
     }
 });
 
+var ComponentProfileContentInterests = React.createClass({
+    render() {
+        return (
+            <div className="content">
+                <ul className="list-unstyled">
+                    {this.props.model.interests.map(function(o,i){
+                        return (
+                            <li className="card card-nested" key={i}>
+                                <p><strong><a href={o.href} target="_blank">{o.name}</a></strong></p>
+                                <div className="space-top labels"></div>
+                            </li>
+                        )
+                    })}
+                </ul>
+            </div>
+        )
+    }
+});
+
 var ComponentProfileContentDetails = React.createClass({
     render() {
         console.log(this.props.model)
@@ -107,7 +126,7 @@ var ComponentProfileContentDetails = React.createClass({
                                         )
                                     } else if (block.section === "interests") {
                                         return (
-                                            <div></div>
+                                            <ComponentProfileContentInterests model={this.props.model} />
                                         )
                                     } else {
                                         // do nothing

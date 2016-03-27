@@ -4,7 +4,7 @@ var oResume = {
     "label": "Frontend Software Developer",
     "picture": "http://n.leesonbooks.com/rg/img/rich.beanie.copy.jpg",
     "email": "rchgrca@gmail.com",
-    "phone": "(510) 918-3102",
+    "phone": "5109183102",
     "website": "http://rchgrca.io",
     "summary": "Richard is a passionate engineer who loves solving problems at the macro and micro level. He is looking for a Front End development position that allows him to combine his love for optimizing the end user experience through visual layout and page performance. Richard has working experience with the following:",
     "highlights": [
@@ -274,11 +274,13 @@ var oResume = {
   "interests": [
     {
       "name": "Cycling",
-      "keywords": []
+      "keywords": [],
+      "href":"http://svlatino.com/rich-garcia-applies-entrepreneur-skills-for-a-worthy-cause/"
     },
     {
       "name": "Near-Space Exploration",
-      "keywords": []
+      "keywords": [],
+      "href":"https://www.youtube.com/watch?v=QldWTVju_uk"
     }
   ]
 }
