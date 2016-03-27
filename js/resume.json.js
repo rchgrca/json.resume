@@ -16,7 +16,7 @@ var oResume = {
       "postalCode": "CA 94536",
       "city": "Fremont",
       "countryCode": "US",
-      "region": "California"
+      "region": "CA"
     },
     "profiles": [
       {
