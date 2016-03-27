@@ -6,9 +6,9 @@ var oResume = {
     "email": "rchgrca@gmail.com",
     "phone": "(510) 918-3102",
     "website": "http://rchgrca.io",
-    "summary": "Richard is a passionate engineer who loves solving problems at the macro and micro level. He is looking for a Front End development position that allows him to combine his love for optimizing the end user experience through visual layout and page performance. Richard has working experience with the following: <ul class=\"highlights\"> <li>Backbone.js, Node.js, jQuery, Handlebars.js, LESS, native JavaScriptReact.js, Backbone.js, Ruby on Rails, SASS/LESS, Node.js, Vanilla.js, TDD (Jasmine/RSPEC), MySQL</li> <li>Real-time web and mobile-web applications</li> </ul>",
+    "summary": "Richard is a passionate engineer who loves solving problems at the macro and micro level. He is looking for a Front End development position that allows him to combine his love for optimizing the end user experience through visual layout and page performance. Richard has working experience with the following:",
     "highlights": [
-      "React.js, Backbone.js, Ruby on Rails, SASS/LESS, Node.js, Vanilla.js, TDD (Jasmine/RSPEC), MySQL",
+      "React.js, Backbone.js, Ruby on Rails, SASS, Node.js, TDD (Jasmine/RSPEC), MySQL",
       "Real-time web and mobile-web applications"
     ],
     "location": {
