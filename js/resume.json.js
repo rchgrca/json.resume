@@ -29,7 +29,7 @@ var oResume = {
   "work": [
     {
       "company": "Euclid Analytics",
-      "position": "Sr. Frontend Software Engineer",
+      "position": "Sr. Frontend Engineer",
       "website": "http://euclidanalytics.com",
       "startDate": "2015-08-15",
       "endDate": moment(),
@@ -43,7 +43,7 @@ var oResume = {
     },
     {
       "company": "Webmocha/Intuit",
-      "position": "Software Developer (Contractor)",
+      "position": "Contract Developer",
       "website": "http://quickbooks.intuit.com.au",
       "startDate": "2012-02-01",
       "endDate": "2015-07-15",
@@ -57,7 +57,7 @@ var oResume = {
     },
     {
       "company": "Blyve, Inc",
-      "position": "Co-founder & Sr. Software Developer",
+      "position": "Co-founder, Developer",
       "website": "http://blyve.com",
       "startDate": "2008-01-01",
       "endDate": "2010-08-01",
@@ -106,7 +106,7 @@ var oResume = {
     },
     {
       "company": "eBay, Inc.",
-      "position": "Software Developer (Contractor)",
+      "position": "Contract Developer",
       "website": "http://ebay.com",
       "startDate": "2003-08-01",
       "endDate": "2003-12-15",
@@ -117,20 +117,20 @@ var oResume = {
       ]
     },
     {
-      "company": "Thirdspace Interactive Television, Limited",
-      "position": "DHTML/XSL Developer",
+      "company": "Thirdspace Interactive TV",
+      "position": "Developer",
       "website": "http://www.prnewswire.com/news-releases/sgi-and-thirdspace-form-interactive-tv-alliance-75554182.html",
       "startDate": "2002-02-01",
       "endDate": "2003-05-01",
       "duration": moment.preciseDiff(moment("2002-02-01"), moment("2003-05-01")),
       "summary": "Development of DHTML embedded XSL stylesheets and server-side applications",
       "highlights": [
-        "Lead Dev for the Thomson set top box product. Brought in $500K in revenue"
+        "Lead developer for the Thomson set top box product. Brought in $500K in revenue"
       ]
     },
     {
       "company": "Powermarket, Inc.",
-      "position": "UI Developer (Contractor)",
+      "position": "Contract Developer",
       "website": "http://www.cnet.com/news/powermarket-gets-12-5-million/",
       "startDate": "2001-09-01",
       "endDate": "2002-01-30",
@@ -142,8 +142,8 @@ var oResume = {
       ]
     },
     {
-      "company": "Cobaltcard.com/AmericanExpress.com",
-      "position": "UI Developer (Contractor)",
+      "company": "AmericanExpress.com",
+      "position": "Contract Developer",
       "website": "http://www.prnewswire.com/news-releases/american-express-and-zowi-corporation-form-strategic-partnership-and-launch-stored-value-card-for-young-adults-and-teenagers-74886442.html",
       "startDate": "2000-08-01",
       "endDate": "2001-08-01",
@@ -167,8 +167,8 @@ var oResume = {
       ]
     },
     {
-      "company": "Web Solutions,  Red Virtual Creative",
-      "position": "Web Developer (Consultant)",
+      "company": "Red Virtual Creative",
+      "position": "Web Developer",
       "website": false,
       "startDate": "1996-09-01",
       "endDate": "2002-10-01",
