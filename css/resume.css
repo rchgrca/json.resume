@@ -317,7 +317,10 @@ body {
 }
 @media (max-width: 768px) {
   .contact-details {
-    text-align: center;
+    /* text-align: center; */
+    text-align: left;
+    width: 135px;
+    margin: 0 auto;
   }
 }
 .contact-details .detail {
