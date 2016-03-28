@@ -370,6 +370,7 @@ body {
 }
 .highlights {
   margin-top: 15px;
+  list-style-type: circle;
 }
 .social-links {
   line-height: 2.5;
