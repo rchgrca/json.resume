@@ -317,14 +317,11 @@ body {
 }
 @media (max-width: 768px) {
   .contact-details {
-    /* text-align: center; */
-    text-align: left;
-    width: 135px;
-    margin: 0 auto;
+    text-align: center;
   }
 }
 .contact-details .detail {
-  display: table;
+  display: inline-block;
   padding: 10px 0;
 }
 .contact-details .detail .icon {
@@ -347,8 +344,6 @@ body {
 @media (max-width: 768px) {
   .contact-details .detail {
     position: relative;
-    float: left;
-    width: 100%;
     min-height: 1px;
     padding-left: 15px;
     padding-right: 15px;
@@ -368,9 +363,9 @@ body {
   }
 }
 @media (max-width: 992px) and (min-width: 768px) {
-  .contact-details .detail {
-    float: left;
-    width: 25%;
+  .contact-details {
+      width: 302px;
+      margin: 0 auto;
   }
 }
 .highlights {
