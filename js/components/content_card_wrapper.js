@@ -60,9 +60,10 @@ var ComponentProfileContentSkills = React.createClass({
             <div className="content">
                 <ul className="list-unstyled">
                     {this.props.model.skills.map(function(o,i){
+                        var tooltip = "Skills: " + o.name;
                         return (
                             <li className="card card-nested card-skills" key={i}>
-                                <div className="skill-level" rel="tooltip" title="Master" data-placement="left">
+                                <div className="skill-level" rel="tooltip" title={tooltip} data-placement="right">
                                     <div className="skill-progress master"></div>
                                 </div>
                                 <div className="skill-info">
