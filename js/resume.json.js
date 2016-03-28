@@ -16,7 +16,8 @@ var oResume = {
       "postalCode": "CA 94536",
       "city": "Fremont",
       "countryCode": "US",
-      "region": "CA"
+      "region": "CA",
+      "map":"https://goo.gl/maps/vz51Y5HhXLN2"
     },
     "profiles": [
       {

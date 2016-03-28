@@ -22,11 +22,10 @@ var ComponentProfilePic = React.createClass({
 var ComponentProfileContact = React.createClass({
     render() {
         var modelProfileContact = [
-            {icon: "location-arrow", detail: this.props.model.basics.location.city + ", " + this.props.model.basics.location.region, href:false},
+            {icon: "location-arrow", detail: "Home", href:this.props.model.basics.location.map},
             {icon: "phone", detail: "Phone", href:"tel:" + this.props.model.basics.phone},
             {icon: "envelope", detail: "E-mail", href:"mailto:" + this.props.model.basics.email},
-            {icon: "link", detail: this.props.model.basics.website.value, href:this.props.model.basics.website.href},
-            {icon: "language", detail: this.props.model.languages[0].language, href:false}
+            {icon: "link", detail: this.props.model.basics.website.value, href:this.props.model.basics.website.href}
         ];
         return (
             <div className="contact-details clearfix" id="contact">
