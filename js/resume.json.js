@@ -8,7 +8,7 @@ var oResume = {
     "website": {"value":"Portfolio","href":"http://rchgrca.io"},
     "summary": "Richard is a passionate engineer who loves solving problems at the macro and micro level. He is looking for a Front End development position that allows him to combine his love for optimizing the end user experience through visual layout and page performance. Richard has working experience with the following:",
     "highlights": [
-      "React.js, Backbone.js, Ruby on Rails, SASS, Jasmine/RSPEC, MySQL",
+      "React/Backbone/Redux/Webpack, Ruby on Rails, SCSS, Karma/Jasmine/RSPEC, MySQL",
       "Real-time web and mobile-web applications"
     ],
     "location": {
@@ -38,8 +38,8 @@ var oResume = {
       "summary": "Data Visualization",
       "highlights": [
         "Created/maintained a web/mobile application for the largest sensor network in the world",
-        "Stack compromised of ReactJS/BackboneJS, Ruby On Rails, and MySQL",
-        "Test driven development with JasmineJS/RSPEC in lieu of QA team"
+        "Stack compromised of React/Backbone/Redux/Webpack/SCSS, Ruby On Rails, and MySQL",
+        "Test driven development with Karma/Jasmine/RSPEC in lieu of QA team"
       ]
     },
     {
